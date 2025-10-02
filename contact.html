@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Your Full Name">
+    <meta name="description" content="Contact The Striped Umbrella spa for reservations and inquiries">
+    <title>Contact Us - The Striped Umbrella Spa</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+            <img src="assets/images/su_banner.gif" alt="The Striped Umbrella Banner">
+            
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+            <!-- Main page contents -->
+            <h2>Contact Us:</h2>
+            
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label for="firstName">First Name:*</label>
+                    <input type="text" id="firstName" name="firstName" maxlength="25" required>
+                    <br><br>
+                    
+                    <label for="lastName">Last Name:*</label>
+                    <input type="text" id="lastName" name="lastName" maxlength="25" required>
+                    <br><br>
+                    
+                    <label for="email">Email:*</label>
+                    <input type="email" id="email" name="email" maxlength="35" required>
+                    <br><br>
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                    <br><br>
+                    
+                    <label for="hearAbout">How did you hear about us?</label>
+                    <select id="hearAbout" name="hearAbout">
+                        <option value="website" selected>Our website</option>
+                        <option value="friends">Friends</option>
+                        <option value="tv">TV Adv.</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <br><br>
+                    
+                    <p>Would you like to receive announcements about new specials?</p>
+                    <input type="radio" id="announceYes" name="announcements" value="yes" checked>
+                    <label for="announceYes">Yes</label>
+                    <br>
+                    <input type="radio" id="announceNo" name="announcements" value="no">
+                    <label for="announceNo">No</label>
+                    <br><br>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Your Message</legend>
+                    
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                    <br><br>
+                    
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea id="message" name="message" rows="6" cols="50"></textarea>
+                    <br><br>
+                    
+                    <input type="submit" value="Send Message">
+                    <input type="reset" value="Reset Form">
+                </fieldset>
+            </form>
+            
+            <h3>Visit Us</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.2659493720877!2d-79.38427788450222!3d43.65884877912168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d68bf33a9b%3A0xb2ba29d2b5b07a6!2sFour%20Seasons%20Hotel%20Toronto!5e0!3m2!1sen!2sca!4v1635789123456!5m2!1sen!2sca" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </main>
+
+        <footer>
+            Copyright © 2023 ILAC and EFREI Paris – HTML-CSS major lab-work - created by: Jashanpreet Kaur - All rights reserved
+        </footer>
+    </div>
+</body>
+</html>
